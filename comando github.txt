@@ -1,0 +1,38 @@
+
+  commando ESENCIALES DE GIT HUB
+================================================================================================================================================
+…or create a new repository on the command line
+echo "# pruebas" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/yoniescobar/pruebas.git
+git push -u origin main
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+…or push an existing repository from the command line
+------------------------------------------------------------------------------------------------------------------------------------------------
+git remote add origin https://github.com/yoniescobar/pruebas.git
+git branch -M main
+git push -u origin main
+
+================================================================================================================================================
+
+Git: borrar archivos/carpetas del repositorio
+
+Para borrar archivos o carpetas también «arriba» en nuestro respositorio (bitbucket, github…) se usa el comando «rm» de git siguiendo los siguientes pasos.
+
+1.A Si quieres eliminar un archivo:
+git rm miarchivo.php
+
+1.B. Si quieres eliminar una carpeta:
+git rm -r micarpeta
+
+
+2. Creamos el commit
+git commit -m "elimino archivos innecesarios"
+
+
+3. Subimos los cambios al repositorio
+git push
