@@ -14,7 +14,7 @@ public class DatosPrimitivos {
       
       
       //3. ingreso de informacion
-        System.out.print("Ingrese su nombre: ");
+        System.out.print("Ingrese Nombre del Estudiante: ");
         nombre = entrada.nextLine();
         System.out.print("Ingrese su edad: ");
         edad = entrada.nextByte();
