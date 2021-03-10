@@ -14,7 +14,7 @@ public class ForanidadoCalificaciones {
         
         System.out.print("¿Cuantos Alumnos Desea Ingresar ?: ");
         cantAlumnos = entrada.nextInt();
-        System.out.println("\n");
+        System.out.println("");
         
         for(int i=1;i<=cantAlumnos;i++){
             System.out.print("Ingrese Nombre Estudiante: ");
