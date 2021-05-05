@@ -26,6 +26,7 @@ public class MetodoEquals {
                 System.out.println("3. Mayor");
                 System.out.println("4. Balance");
                 break;
+               
             } else {
                 
                 System.out.println("\n\nEl usuario o contraseña es incorrecta.");
@@ -35,7 +36,7 @@ public class MetodoEquals {
         }while(intentos<3);
 
         
-        if(rpt==true){
+        if(rpt!=true){
         System.out.println("Haz superado el numero de intentos "+intentos);
         }
         
