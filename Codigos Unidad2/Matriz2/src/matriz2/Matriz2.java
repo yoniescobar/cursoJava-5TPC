@@ -8,6 +8,7 @@ public class Matriz2 {
     public static void main(String[] args) {
        Scanner entrada = new Scanner(System.in);
        int matriz[][],nFilas,nColumnas;
+      
        
         System.out.print("Ingrese numero de Filas: ");
         nFilas = entrada.nextInt();
@@ -33,7 +34,7 @@ public class Matriz2 {
             }
              System.out.println("");
         }
-        
+       
         
         
         
