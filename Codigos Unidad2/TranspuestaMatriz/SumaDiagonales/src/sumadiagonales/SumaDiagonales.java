@@ -2,6 +2,7 @@
 package sumadiagonales;
 
 import java.util.Scanner;
+import java.*;
 
 public class SumaDiagonales {
 
