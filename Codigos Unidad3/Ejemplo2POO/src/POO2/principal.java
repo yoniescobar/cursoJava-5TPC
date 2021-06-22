@@ -18,6 +18,7 @@ public class principal {
         p1.comer("Pizza");
         
         
+        
         //Datos de persona p2
         p2.nombre = "Lucero Barrios";
         p2.edad = 25;
@@ -27,7 +28,7 @@ public class principal {
         
         System.out.println("\n-----------Datos de la Persona 2-------------");
         p2.mostrarDatos();
-        p2.comer(" Ensalada ");
+        p2.comer("Ensalada");
         
         
         
