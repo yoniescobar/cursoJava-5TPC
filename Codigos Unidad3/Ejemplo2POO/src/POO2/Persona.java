@@ -8,7 +8,7 @@ public class Persona {
     String genero;
     String tipoSangre;
     
-    //Metodos
+    //Metodos no retonan nigun valor
     void leer(){ 
         System.out.println("Persona esta leyendo...");
     }
