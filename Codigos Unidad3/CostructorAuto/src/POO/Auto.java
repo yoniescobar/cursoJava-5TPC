@@ -16,7 +16,7 @@ public class Auto {
            this.color =color;
            this.motor=motor;
        }
-    
+       
       public void verDatos(){
            System.out.println("Marca: "+marca);
            System.out.println("Modelo: "+modelo);
