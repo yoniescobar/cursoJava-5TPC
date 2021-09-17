@@ -23,7 +23,7 @@ public class Vehiculo {
     
     //metodo para mostrar datos
     public String mostrarDato(){
-        return "Marca: "+marca+"\n Modelo: "+modelo+"\nColor: "+color+"\n Prcion Q. "+precio+"\n";
+        return "Marca: "+marca+"\n Modelo: "+modelo+"\nColor: "+color+"\n Precio Q. "+precio+"\n";
     }
    
 }
